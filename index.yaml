@@ -3,7 +3,17 @@ entries:
   first-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-29T21:23:09.30290597+03:00"
+    created: "2023-03-29T22:11:32.670300494+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 0582994d010afdd7a967295967d289149cbe2aea45e213512ea6737f9240860d
+    name: first-app
+    type: application
+    urls:
+    - https://nickvab.github.io/helm-23-23/helm-releases/first-app-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-03-29T22:11:32.66254457+03:00"
     description: A Helm chart for Kubernetes
     digest: 92aa15d879f4ad0f93468d8e19240f9276b40c7323b30c9d1e4848ff0ef63d1a
     name: first-app
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://nickvab.github.io/helm-23-23/helm-releases/first-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-29T21:23:09.299743393+03:00"
+generated: "2023-03-29T22:11:32.655883453+03:00"
