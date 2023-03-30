@@ -43,7 +43,7 @@ service:
 ingress:
   enabled: true
   className: ""
-  annotations: 
+  annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/server-alias: "helm-alias.k8s-3.sa"
   hosts:
@@ -60,7 +60,7 @@ pvc:
   storage_size: 1Gi
   storage_class: nfs
 
-resources: 
+resources:
   limits:
     cpu: 100m
     memory: 128Mi
